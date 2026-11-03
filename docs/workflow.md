@@ -101,6 +101,42 @@ internal browser for ordinary browsing when available. Native browser/device
 checks need the corresponding actual capability. A hidden window or controller
 timeout is a tooling limit until a product failure is reproduced.
 
+## One deliverable index across parallel projects
+
+When several projects run at once, keep one private index of deliverables rather
+than a status note per project. Use the
+[deliverable index template](../templates/DELIVERABLES.example.md). Each row has
+an accountable owner, the evidence that supports its state, the next gate and a
+reference to where restricted material lives. The index points to sensitive
+files, messages and accounts; it never copies them into shared source. The index
+is a pointer, not the status record: keep the canonical state in the project's
+current status record and fix a stale row rather than adding a second narrative.
+
+Track three decisions separately; one does not imply another:
+
+- **Preferred direction**: the human's visual or design choice among options.
+- **Approved for launch**: the exact version may go live or be produced.
+- **Approved to share**: the exact version may go to a named audience.
+
+For a controlled visual review, compare options under the same framing, record
+target-size fields and detail checks, and state what changed and what stayed
+unchanged against the prior version. See the
+[sanitized visual review example](../templates/VISUAL-REVIEW.example.md).
+
+## Message approvals and quiet progress
+
+By default, existing applicable authorization covers a send. Where a project
+wants stricter control, it may adopt **per-message approval** in its overlay: show
+the exact final text, recipients or destination, links and attachments, and send
+only that approved version. Any change to those items reopens review. Record a
+dispatch receipt, or that the human sent it. A failed or uncertain send is never
+resent automatically; inspect the destination first, then ask.
+
+Healthy progress stays quiet: do not report routine steps or repeat unchanged
+status. Surface a material milestone or blocker with its limits (what is
+verified, what is not) and the next action, owner and decision needed. Silence
+is not a completion claim.
+
 ## Durable records and safe cleanup
 
 Choose one ownership directory and one current status/release record per project.

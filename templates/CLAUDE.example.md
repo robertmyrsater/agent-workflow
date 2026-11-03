@@ -12,6 +12,10 @@ and cleanup notes. Independent QA verifies the stable result. Preserve actual
 publication, merge, deployment, live-setting and send boundaries; this entry
 point grants no additional authority.
 
+If the overlay adopts Claude as sole writer, other workers hand changes over as
+patches or reviews rather than editing source. Claude does not approve its own
+work; tracked independent QA does.
+
 Follow this project's chosen spec/plan/implementation process. Where a
 complete-code plan is required, correct it before applying review fixes and
 verify parity before merge; merged plans remain dated history. Use the approved

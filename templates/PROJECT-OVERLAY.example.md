@@ -43,6 +43,21 @@ A role or template is not blanket approval. Preserve existing applicable
 permissions and task authorization; resolve conflicts explicitly. Leave
 credentials and personal/customer data out of this file.
 
+## Optional project choices
+
+Adopt only what the project has reviewed; delete the rest.
+
+- Deliverable index: `[private location; one accountable owner per row]`
+- Per-message approval: `[adopted or not; applies to which destinations]`
+- Progress reporting: `[quiet by default; what counts as a milestone or blocker]`
+- Roles: Codex as Project Lead with Claude as the sole writer of source, and
+  tracked independent QA who neither write nor approve their own work. Record
+  the lead, the writer, the QA owner and how handoffs are verified. A second
+  writer needs its own isolated checkout and owner.
+- Local owner records (chat references, accounts, personal notes): kept in the
+  owners' approved private location, not in shared project commits. Commit only
+  sanitized role assignments.
+
 ## Deliberate revision updates
 
 Compare old/new shared commits, review local overrides, record adoption impact

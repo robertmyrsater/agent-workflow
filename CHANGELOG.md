@@ -5,7 +5,18 @@ project's overlay and history; this file does not update projects automatically.
 
 ## Unreleased
 
-No pending changes.
+- Added a private deliverable index (owner, evidence, next gate, restricted
+  location only) and separate preferred direction / approved for launch /
+  approved to share decisions.
+- Added a fictional, sanitized controlled visual review example.
+- Added optional per-message approval, quiet-by-default progress with
+  milestone/blocker reporting, and an optional overlay choice for Codex lead,
+  Claude sole writer, tracked independent QA and local owner records kept out
+  of shared project commits.
+- Adoption impact: all additions are optional and change no project until its
+  overlay adopts them through a reviewed change. Projects that adopt the
+  deliverable index or approvals should also update their overlay, owner map and
+  AGENTS entry point. No installation, permission or authorization change.
 
 ## 2026-10-26 — Initial extraction
 

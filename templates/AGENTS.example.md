@@ -28,6 +28,13 @@ acceptance and boundaries. Keep Sent/Acknowledged/Started/Completed separate.
 Every unfinished dependency has an execution owner and next action. A document
 update does not prove receipt or implementation.
 
+Track deliverables in the private index `[location]`; keep preferred direction,
+approved for launch and approved to share separate. Where the overlay adopts
+per-message approval, send only the exact approved text, recipients, links and
+attachments; changes reopen review and failed sends are never auto-resent. Stay
+quiet while progress is healthy; report milestones and blockers with limits and
+next action.
+
 ## Verification and shared state
 
 - Use isolated worktrees for concurrent source changes. Do not stop/rebuild
