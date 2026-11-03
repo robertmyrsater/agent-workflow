@@ -12,6 +12,12 @@ and cleanup notes. Independent QA verifies the stable result. Preserve actual
 publication, merge, deployment, live-setting and send boundaries; this entry
 point grants no additional authority.
 
+Only if the overlay adopts Claude as sole writer: Claude alone edits source.
+Other workers deliver findings or specs to Claude, not edits or patches. A
+separate worktree does not reassign authorship; a different author needs a fresh,
+explicit change to that configuration by the project owner. Claude's own pass is
+not QA. Independent QA verifies; it is not authority to approve launch or send.
+
 Follow this project's chosen spec/plan/implementation process. Where a
 complete-code plan is required, correct it before applying review fixes and
 verify parity before merge; merged plans remain dated history. Use the approved

@@ -43,6 +43,24 @@ A role or template is not blanket approval. Preserve existing applicable
 permissions and task authorization; resolve conflicts explicitly. Leave
 credentials and personal/customer data out of this file.
 
+## Optional project choices
+
+Adopt only what the project has reviewed; delete the rest.
+
+- Deliverable index: `[private location; one accountable owner per row]`
+- Per-message approval: `[adopted or not; applies to which destinations]`
+- Progress reporting: `[adopted or not; if adopted, what counts as a milestone or blocker]`
+- Roles (example configuration): Codex as Project Lead, Claude as the sole
+  writer of source, and tracked independent QA. Non-writers deliver findings or
+  specs to Claude, not edits or patches. A separate worktree alone does not
+  reassign authorship; a different author requires a fresh explicit change to
+  this configuration by the project owner. QA verifies a stable target; launch
+  and send approval stay with the human owner or release owner. Record the lead,
+  writer, QA owner and how handoffs are verified.
+- Local owner records (chat references, accounts, personal notes): kept in the
+  owners' approved private location, not in shared project commits. Commit only
+  sanitized role assignments.
+
 ## Deliberate revision updates
 
 Compare old/new shared commits, review local overrides, record adoption impact
