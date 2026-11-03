@@ -90,8 +90,9 @@ shared documents. See the [official worktree guide](https://learn.chatgpt.com/do
 Record the owner of each branch, server, shared file, account state and QA target.
 Freeze the served build during QA. Do not rebuild or stop another worker's
 server unannounced. Give overlapping coordination records one editor, or supply
-a patch for the owner to apply. Integrate reviewed changes without dropping
-another worker's contribution.
+a patch for the owner to apply (not for source where a project adopts a sole
+writer; there others deliver findings or specs). Integrate reviewed changes
+without dropping another worker's contribution.
 
 Only one worker controls a native browser or device at a time. Agree on the
 window/session and control handoff; capture initial settings, restore authorized
@@ -103,8 +104,8 @@ timeout is a tooling limit until a product failure is reproduced.
 
 ## One deliverable index across parallel projects
 
-When several projects run at once, keep one private index of deliverables rather
-than a status note per project. Use the
+A project running several workstreams in parallel may adopt one private index
+of deliverables rather than a status note per workstream. If it does, use the
 [deliverable index template](../templates/DELIVERABLES.example.md). Each row has
 an accountable owner, the evidence that supports its state, the next gate and a
 reference to where restricted material lives. The index points to sensitive
@@ -112,7 +113,7 @@ files, messages and accounts; it never copies them into shared source. The index
 is a pointer, not the status record: keep the canonical state in the project's
 current status record and fix a stale row rather than adding a second narrative.
 
-Track three decisions separately; one does not imply another:
+Whether or not an index is adopted, track three decisions separately; one does not imply another:
 
 - **Preferred direction**: the human's visual or design choice among options.
 - **Approved for launch**: the exact version may go live or be produced.
@@ -127,15 +128,17 @@ unchanged against the prior version. See the
 
 By default, existing applicable authorization covers a send. Where a project
 wants stricter control, it may adopt **per-message approval** in its overlay: show
-the exact final text, recipients or destination, links and attachments, and send
-only that approved version. Any change to those items reopens review. Record a
-dispatch receipt, or that the human sent it. A failed or uncertain send is never
-resent automatically; inspect the destination first, then ask.
+the actual final draft as shown, the audience or destination, and the links and
+attachments. Approval covers only that material version; any change reopens
+review. Record a dispatch receipt, or that the human sent it. An item the human
+sent is never resent by an agent, and a failed or uncertain send is never
+resent automatically: inspect the destination first, then ask.
 
-Healthy progress stays quiet: do not report routine steps or repeat unchanged
-status. Surface a material milestone or blocker with its limits (what is
-verified, what is not) and the next action, owner and decision needed. Silence
-is not a completion claim.
+A project may also adopt quiet progress reporting. If it does, routine steps and
+unchanged status are not reported; surface a material milestone or blocker with
+its limits (what is verified, what is not) and the next action, owner and
+decision needed. Silence is not a completion claim. Without that adoption,
+follow the project's existing reporting practice.
 
 ## Durable records and safe cleanup
 

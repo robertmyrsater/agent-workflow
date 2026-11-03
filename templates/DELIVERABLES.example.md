@@ -1,7 +1,8 @@
 # Private deliverable index — example
 
-Keep this index in an approved private location, not in shared source. Rows
-point to restricted material; do not copy sensitive files, messages, account
+Optional: use only if the project overlay adopts it. Keep this index in an
+approved private location, not in shared source. Rows point to restricted
+material; do not copy sensitive files, messages, account
 details or authenticated URLs into it. Replace bracketed fields.
 
 Updated: `[timestamp with timezone]`. Canonical status: `[record]`.
@@ -24,9 +25,10 @@ A new version needs its own entries.
 
 Use only if the project overlay adopts it.
 
-- Exact final text: `[verbatim text or hash of the approved text]`
-- Recipients/destination: `[named recipients or channel]`
+- Actual final draft shown: `[verbatim text or hash of what the human saw]`
+- Audience/destination: `[named recipients or channel]`
 - Links and attachments: `[each item, version or hash]`
-- Approved by / when: `[human and timestamp]`
-- Outcome: `[receipt, or sent by the human]`; any change to the items above
-  reopens review. Never resend automatically; inspect the destination first.
+- Approved by / when: `[human and timestamp]`; covers only this material version
+- Outcome: `[dispatch receipt, or sent by the human]`. Any change to the items
+  above reopens review. Never resend a human-sent item or auto-resend a failure;
+  inspect the destination first.

@@ -28,12 +28,13 @@ acceptance and boundaries. Keep Sent/Acknowledged/Started/Completed separate.
 Every unfinished dependency has an execution owner and next action. A document
 update does not prove receipt or implementation.
 
-Track deliverables in the private index `[location]`; keep preferred direction,
-approved for launch and approved to share separate. Where the overlay adopts
-per-message approval, send only the exact approved text, recipients, links and
-attachments; changes reopen review and failed sends are never auto-resent. Stay
-quiet while progress is healthy; report milestones and blockers with limits and
-next action.
+Optional, only where the overlay adopts them (delete otherwise): the private
+deliverable index at `[location]`; per-message approval, which sends only the
+approved final draft to the approved audience with the approved links and
+attachments, reopens review on any change and never resends a human-sent or
+failed item; and quiet progress, reporting milestones and blockers with limits
+and next action. Always keep preferred direction, approved for launch and
+approved to share separate.
 
 ## Verification and shared state
 

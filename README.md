@@ -30,7 +30,7 @@ built-in requirement of any tool. The workflow does not grant access or approval
 | [Ownership map](templates/OWNERS.example.md) | Continuing owners, dependencies and shared-resource holders |
 | [Task handoff](templates/HANDOFF.example.md) | Concrete assignment and verified delivery/progress |
 | [Evidence receipt](templates/EVIDENCE.example.md) | Exact target, meaningful checks, integration and cleanup |
-| [Deliverable index](templates/DELIVERABLES.example.md) | Private index across parallel projects: owner, evidence, next gate, three approvals, optional per-message approval |
+| [Deliverable index](templates/DELIVERABLES.example.md) | Optional private index across parallel workstreams: owner, evidence, next gate, three approvals, optional per-message approval |
 | [Visual review example](templates/VISUAL-REVIEW.example.md) | Fictional controlled comparison: same framing, target-size checks, changed/unchanged |
 | [Bootstrap prompt](templates/BOOTSTRAP-PROMPT.md) | Orient a new Project Lead without changing accounts or permissions |
 
