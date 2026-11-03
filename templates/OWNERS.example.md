@@ -32,8 +32,8 @@ active ownership from old branches or duplicate a busy specialist.
 
 Keep verified chat/session references and other local owner details in the
 owner's approved private location when the project commits this map; commit
-role names only. Track deliverables in the
-[private deliverable index](DELIVERABLES.example.md).
+role names only. If the project adopts a
+[private deliverable index](DELIVERABLES.example.md), link to it here.
 
 Detailed status belongs in linked records. Renaming, archiving or documenting a
 chat does not complete work, transfer access, restart a task or authorize sends.
